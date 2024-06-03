@@ -11,5 +11,6 @@ bg
 gt
 reg 
 ad
-njsa
+nj
+sa
 njcfjehuhsffmewwpum eerr
