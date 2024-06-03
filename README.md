@@ -1,1 +1,1 @@
-# Artificial-Intelligence
+# DSA + Interview preparation bootcamp
