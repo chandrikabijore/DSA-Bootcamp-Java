@@ -10,7 +10,7 @@ fh
 jbg
 bg
 gt
-reg 
+re
 a
 nj
 sa
