@@ -11,7 +11,7 @@ jbg
 bg
 gt
 reg 
-ad
+a
 nj
 sa
 njcfjehuhsffmewwpum eerr
