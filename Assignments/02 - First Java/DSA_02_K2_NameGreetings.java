@@ -1,4 +1,5 @@
 // 2. Take name as input and print a greeting message for that particular name.
+
 package com.chandrika;
 
 import java.util.Scanner;
@@ -16,4 +17,3 @@ public class DSA_02_K2_NameGreetings
         System.out.printf("Good Morning :) Have a great day...!!! " + name);
     }
 }
-
