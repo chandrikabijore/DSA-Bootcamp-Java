@@ -1,4 +1,5 @@
 // 6. Input currency in rupees and output in USD.
+
 package com.chandrika;
 
 import java.util.Scanner;
