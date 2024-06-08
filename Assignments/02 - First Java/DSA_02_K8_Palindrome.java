@@ -1,4 +1,5 @@
 // 8. To find out whether the given String is Palindrome or not.
+
 package com.chandrika;
 
 import java.util.Scanner;
