@@ -3,7 +3,7 @@ fh  gb
 vv
 vf 
 b nxmnd
-n  jntbgd
+n  jntbg
 vv
  b 
 fh
