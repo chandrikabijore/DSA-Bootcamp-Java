@@ -2,7 +2,7 @@
 fh  gb
 vv
 vf 
-b bnxmndc
+b bnxmnd
 n  jntbgd
 vv
  b 
