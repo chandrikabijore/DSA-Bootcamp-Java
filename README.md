@@ -1,5 +1,5 @@
 # DSA + Interview preparation bootcamp
-fh  uhffdsdjxn vfcx
+fh  uhffdsdjxn vf
 vvv
 vf
 b nx
