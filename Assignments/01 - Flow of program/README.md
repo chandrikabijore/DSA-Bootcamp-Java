@@ -14,6 +14,6 @@ Q5) Keep taking numbers as inputs till the user enters ‘x’, after that print
  
  
  
-dedbwq
+ 
 uj
 qnbe
