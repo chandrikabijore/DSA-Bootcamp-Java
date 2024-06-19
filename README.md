@@ -7,7 +7,7 @@ n  jn
 vvn n 
 f
 fh
-jbgh
+jb
 bg
 acd
 rebvvjb
