@@ -4,7 +4,7 @@ vvv
 vf
 b nx
 n  jn
-vvn n jb
+vvn n 
 fcf b 
 fh
 jbgh
