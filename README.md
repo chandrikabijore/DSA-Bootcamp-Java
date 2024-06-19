@@ -5,7 +5,7 @@ vf
 b nx
 n  jn
 vvn n 
-fcf b 
+fcf 
 fh
 jbgh
 bg
