@@ -12,7 +12,6 @@ bg
 acd
 rebvvjb
 a
-nj
 njcfjehuhsffmewwpum ee 
 fh  uhffdsdjxn vfcxvx
 vv
