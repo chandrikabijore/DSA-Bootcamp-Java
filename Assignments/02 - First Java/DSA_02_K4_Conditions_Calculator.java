@@ -1,5 +1,4 @@
 // 4. Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
-
 package com.chandrika;
 
 import java.util.Scanner;
@@ -45,6 +44,7 @@ public class DSA_02_K4_Conditions_Calculator
                     System.out.println("Error: Division by zero is not allowed.");
                     ValidOperation = false;
                 }
+                break;
             default:
                 System.out.printf("You have Entered Invalid Operator...");
         }
@@ -52,4 +52,3 @@ public class DSA_02_K4_Conditions_Calculator
         System.out.printf("The Result is : " + Result);
     }
 }
-
