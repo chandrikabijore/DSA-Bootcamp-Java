@@ -9,5 +9,6 @@ wesssss
 sw
 w2ed
 w2ww  
-nn
+nnmw
 dmwq  
+dm
