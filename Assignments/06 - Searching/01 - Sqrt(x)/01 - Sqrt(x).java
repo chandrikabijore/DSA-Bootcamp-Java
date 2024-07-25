@@ -18,39 +18,39 @@ public class DSA_06_K1_Searching_L_sqrt
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number : " );
+        System.out.println("Enter a number you want square of : ");
         int x = sc.nextInt();
 
-        System.out.println("The Square root of " + x + " is : " + mySqrt(x));
+        System.out.println("The square root of " + x + " is " + mySqrt(x));
     }
 
     public static int mySqrt(int x)
     {
-        if (x == 0 || x == 1)
-        {
+        if (x == 0 || x == 1)                 // If x is 0 or 1, the method returns x directly because the square root of 0 is 0, and the square root of 1 is 1.
             return x;
-        }
-        int start = 1;
-        int mid = -1;
+
+        int start = 1;                        // Initialize the search range for the square root.
         int end = x;
+        int mid = -1;
 
-        while (start <= end)
+        while (start <= end)                  // Perform binary search to find the square root of x.
         {
-            mid = start + (end - start) / 2;
+            mid = start + (end - start) / 2;  // Calculate the middle point using "start + (end - start) / 2" to avoid integer overflow.
 
-            if ( (long)mid * mid > (long)x )
-            {
+            if ((long) mid * mid > (long) x)  // If the square of the middle value is greater than x, move the "end" to the left (mid - 1).
                 end = mid - 1;
-            }
-            else if (mid * mid == x)
-            {
+            else if (mid * mid == x)          // If the square of the middle value is equal to x, we found the square root.
                 return mid;
-            }
-            else
-            {
+            else                              // If the square of the middle value is less than x, move the "start" to the right (mid + 1).
                 start = mid + 1;
-            }
         }
-        return end;
-    }
+        return (end);                         // The loop ends when "start" becomes greater than "end", and "end" is the integer value of the square root.
+    }                                         // However, since we might have been using integer division in the calculations,
+}                                             // we round down the value of "end" to the nearest integer to get the correct square root.
+
+
+
+// The reason for using (long) in the expression (long) mid * mid > (long) x is to prevent integer overflow during the
+// multiplication of mid * mid. Here's a more detailed explanation
+// If mid is 46341, then mid * mid = 46341 * 46341 = 2147488281, which exceeds the maximum value an int can hold.
 }
